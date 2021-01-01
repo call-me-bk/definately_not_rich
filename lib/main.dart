@@ -9,8 +9,10 @@ void main() {
         backgroundColor: Colors.blueGrey[900],
       ),
       backgroundColor: Colors.blueGrey,
-      body: Image(
-        image: NetworkImage('https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png'),
+      body: Center(
+        child: Image(
+          image: NetworkImage('https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png'),
+        ),
       ),
     ),
   ));
